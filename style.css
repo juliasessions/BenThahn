@@ -1,0 +1,548 @@
+/* Ben Thanh Stylesheet */
+
+/* Across Pages */
+
+body {
+  background-color: #ba1f23;
+  background-image: url(bkgpatternblock.png);
+  background-size: 200px 200px;
+  background-repeat: repeat;
+}
+
+div {
+  font-family: Proxima Nova;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: .5s;
+}
+
+a:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #ba1f23;
+  background-image: url(bkgpatternblock.png);
+  background-size: 200px 200px;
+  background-repeat: repeat;
+}
+
+.logo {
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+}
+
+.logo img {
+  position: relative;
+  height: 150px;
+}
+
+#name {
+  top: -50px;
+  left: 0px;
+  width: 200px;
+}
+
+#icon {
+  left: 170px;
+}
+
+#icon img {
+  height: 50px;
+}
+
+.nav {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #8F0A0E;
+}
+
+.nav-item {
+  position: relative;
+  top: 7px;
+  left: 55%;
+  display: inline-block;
+  width: auto;
+  margin-left: 25px;
+  padding: 7px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#cart {
+  border-width: 1px;
+  border-style: solid;
+  transition: .5s;
+}
+
+#cart:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
+/*Pop Ups*/
+.pop {
+  position: absolute;
+  top: 125px;
+  left: 37%;
+  width: 400px;
+  height: 500px;
+  background-color: #A5D5C0;
+}
+
+.pop-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pop-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#ramen1 {
+  position: absolute;
+  top: 0px;
+  left: 75px;
+  width: 280px;
+  height: 230px;
+}
+
+.pop-t {
+  position: absolute;
+  top: 220px;
+  left: 35%;
+  width: auto;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.pop-l {
+  position: absolute;
+  top: 250px;
+  left: -13px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.pop-l ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.pop-p {
+  position: absolute;
+  top: 255px;
+  left: 5%;
+  width: 90%;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+}
+
+.sizes {
+  display: inline-block;
+  position: relative;
+  top: 350px;
+  left: 15%;
+  margin-left: 8%;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.add {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.pop-button {
+  position: absolute;
+  top: 445px;
+  left: 32%;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #8F0A0E;
+  font-weight: bold;
+  transition: .5s;
+}
+
+/* Homepage Specific Elements */
+
+#feat {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  height: 700px;
+  color: #FFFFFF;
+}
+
+#feat img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+#feat-box {
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#feat-title {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  font-size: 50px;
+}
+
+#enjoy {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  font-size: 30px;
+}
+
+#view-button {
+  position: absolute;
+  top: 165px;
+  left: 245px;
+  width: 20%;
+  height: 25px;
+  background-color: #8F0A0E;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#about {
+  position: absolute;
+  top: 680px;
+  left: 0px;
+  width: 100%;
+  height: 325px;
+  background-color: #8F0A0E;
+}
+
+#about-box {
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+}
+
+#about-title {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  height: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#about-p {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 100%;
+  height: 125px;
+  color: #FFFFFF;
+}
+
+#info {
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+  width: 100%;
+  height: 750px;
+}
+
+#info-box {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+#info-title {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.info-p {
+  position: absolute;
+  top: 100px;
+  width: 30%;
+  height: 500px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#info-1 {
+  left: 20%;
+  line-height: 35px;
+  background-color: #8F0A0E;
+}
+
+#info-2 {
+  left: 50%;
+}
+
+#info-1 ul {
+  text-align: left;
+  list-style: none;
+  font-size: 17px
+}
+
+#info-2 img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#info-3 {
+  position: absolute;
+  top: 500px;
+  left: 23%;
+  width: 50%;
+  height: 100px;
+  line-height: 35px;
+  text-align: left;
+}
+
+/* Reservations Specific Elements */
+
+#reservation {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 1000px;
+  height: 500px;
+  background-color: #8F0A0E;
+}
+
+#r-t {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.r-p {
+  position: absolute;
+  display: inline-block;
+  top: 75px;
+  width: 40%;
+  height: 300px;
+  text-align: left;
+}
+
+#r-1 {
+  left: 75px;
+}
+
+#r-2 {
+  left: 525px;
+}
+
+.field {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #FFFFFF;
+  font-weight: normal;
+  color: #707070;
+}
+
+#request {
+  height: 85px;
+}
+
+#seat {
+  width: 44%;
+  display: inline-block;
+  text-align: center;
+  background-color: #C9383C;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: .5s;
+}
+
+#seat:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
+#book {
+  margin-top: 30px;
+  margin-left: 260px;
+  text-align: center;
+  width: 30%;
+  height: auto;
+  background-color: #A5D5C0;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/* Menu Specific Elements */
+
+.menu {
+  position: absolute;
+  top: 150px;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.menu ul {
+  text-align: left;
+  list-style: none;
+  line-height: 40px;
+}
+
+.menu li {
+  transition: .5s;
+}
+
+.menu li:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
+#categoies {
+  left: 1%;
+  width: 19%;
+  height: 500px;
+  overflow: scroll;
+  background-color: #8F0A0E;
+}
+
+#menu-scroll {
+  left: 22.5%;
+  width: 55%;
+  height: 500px;
+  overflow: scroll;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+#menu-t {
+  position: absolute;
+  top: 25px;
+  left: 44%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#menu-sub {
+  position: absolute;
+  top: 75px;
+  left: 44.5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#order-sum {
+  left: 80%;
+  width: 19%;
+  height: 500px;
+  background-color: #8F0A0E;
+}
+
+table  {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  height: 2000px;
+  text-align: center;
+}
+
+td {
+  width: 50%;
+  transition: .5s;
+  padding: 15px;
+}
+
+td:hover {
+  background-color: #8F0A0E;
+  transition: .5s;
+}
+
+hr {
+  width: 200px;
+}
+
+/*Reservation Popup Specific Elements*/
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .6;
+}
